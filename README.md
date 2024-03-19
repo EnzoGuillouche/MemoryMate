@@ -1,4 +1,4 @@
-# -MemoryMate
+# MemoryMate
 
 ## Overview
 
