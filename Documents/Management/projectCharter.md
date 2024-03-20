@@ -31,7 +31,8 @@ Throughout the years of work, all of the following documents must be public. The
 
 ## Time Management
 
-ALGOSUP doesn't supply any dedicated time to work on this project. The project will be managed and developed during free time.
+ALGOSUP doesn't supply any dedicated time to work on this project. The project will be managed and developed during free time.<br>
+However, the tool Wakatime will be used to record and track the amount of working time done. These tracks will be available in the [Monthly Reports](../Management/MonthlyReports/monthlyReportCumulative.md).
 
 ## Budget
 

@@ -30,6 +30,10 @@ The first month was dedicated to initiating the project. The Multitasker establi
     - The KPIs have been created.
     <!-- - The Functional Specifications document has been started. -->
 
+## Time
+
+Working time has been calculated with the tool Wakatime.<br>
+-- working hours have been recorded.
 
 ## Challenges
 
