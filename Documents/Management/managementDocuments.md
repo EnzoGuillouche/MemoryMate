@@ -17,7 +17,7 @@ The Tasks of this project is [here](https://docs.google.com/spreadsheets/d/1L_qX
 
 | Must Have| Should Have | Could Have | Won't Have |
 | -------- | ----------- | ---------- | ---------- |
-| - AI<br>- Database<br>- NLP | - Communication with professionals | - Web Support | - Medical Support |
+| - AI<br>- Database<br>- NLP | - Communication with professionals | - Web Support<br> - Website | - Medical Support |
 
 ## Target Key Performace Indicators
 
