@@ -4,7 +4,7 @@
 
 This project has been started as my moonshot project for ALGOSUP.
 
-This project would deal with developing an AI system that supports individuals with Alzheimer's in their daily lives. It could find some personal information from a database, and supply the information to the people with reminders, or if they ask for. It would be a way to support people who are often alone.
+This project deals with developing an AI system that supports individuals with Alzheimer's in their daily lives. It could find some personal information from a database, and supply the information to the people with reminders, or if they ask for. It would be a way to support people who are often alone.
 
 ## Tools
 
