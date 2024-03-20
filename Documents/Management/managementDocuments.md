@@ -4,7 +4,6 @@ This document contains the main documentation for the management of the project 
 - [Tasks](#tasks)
 - [MoSCoW](#moscow)
 - [Target Key Performace Indicators](#target-key-performace-indicators)
-- [Statement of work](#statement-of-work)
 
 ## Project charter
 
@@ -24,12 +23,13 @@ The Tasks of this project is [here](https://docs.google.com/spreadsheets/d/1L_qX
 
 | KPI | Description | Target |
 | --- | ----------- | ------ |
-| - | - | - |
-| - | - | - |
-| - | - | - |
-| - | - | - |
-| - | - | - |
+| - Prompt Manager | The AI can supply information and answer from written prompts as text. | 100% |
+| - Order Manager | The AI can supply information and answer from written prompts as voice. | 100% |
+| - NLP Manager | The AI can supply information ans answer from vocal orders as voice and text. | 100% |
+| - Database Linker | The AI is linked to the database. | 90% |
+| - Database Supplier | The database can supply information. | 95% |
+| - Database Maintenance | The database is under maintainance. | 75% |
+| - Personal Security | The personal information are secured in the database. | 90% |
+| - Database Security | The database is secured. | 70% |
 
 These target KPIs are based on the requirements of mine and the stakeholders.
-
-## Statement of work
