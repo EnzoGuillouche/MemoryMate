@@ -32,4 +32,4 @@ The Tasks of this project is [here](https://docs.google.com/spreadsheets/d/1L_qX
 | - Personal Security | The personal information are secured in the database. | 90% |
 | - Database Security | The database is secured. | 70% |
 
-These target KPIs are based on the requirements of mine and the stakeholders.
+These target KPIs are based on the requirements of mine and the stakeholders.<br>They will be constantly updated and available [here](https://docs.google.com/spreadsheets/d/1vgAUFMvaVsJUrl9auPCQnrgWFBCn9Taq41THd1hsXxw/edit?usp=sharing).
