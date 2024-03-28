@@ -15,16 +15,19 @@ The goal of the project is to create an Artificial Intelligence linked with a da
   - [Functional requirements](#functional-requirements)
   - [Deliverables and milestones](#deliverables-and-milestones)
     - [Final Product](#final-product)
-  - [Personas and use cases](#personas-and-use-cases)
-    - [Persona 1 -](#persona-1--)
-      - [Goals](#goals)
-      - [Challenges](#challenges)
-    - [Persona 2 -](#persona-2--)
+  - [Personas and Use cases](#personas-and-use-cases)
+    - [Persona 1 - Josh Kepper](#persona-1---josh-kepper)
+        - [Goals](#goals)
+        - [Challenges](#challenges)
       - [Goals](#goals-1)
       - [Challenges](#challenges-1)
-    - [Persona 3 -](#persona-3--)
+    - [Persona 2 -](#persona-2--)
       - [Goals](#goals-2)
       - [Challenges](#challenges-2)
+    - [Persona 3 -](#persona-3--)
+      - [Goals](#goals-3)
+      - [Challenges](#challenges-3)
+  - [Use cases](#use-cases)
   - [Acceptance criteria](#acceptance-criteria)
   - [Solution overview](#solution-overview)
   - [Non-functional requirements](#non-functional-requirements)
@@ -34,7 +37,6 @@ The goal of the project is to create an Artificial Intelligence linked with a da
     - [Portability](#portability)
     - [Usability](#usability)
     - [Security](#security)
-  - [Example](#example)
   - [Risks and assumptions](#risks-and-assumptions)
   - [Future improvements](#future-improvements)
   - [Glossary](#glossary)
@@ -71,7 +73,7 @@ We have multiple objectives for this project:
 
 - [Functional Specifications](../Functional/functionalSpecifications.md)
 - [Technical Specifications](../Technical/technicalSpecifications.md)
-- [The Architecture Diagram](../Technical/architectureDiagram.png)
+- [The Architecture Diagram](../Technical/Img/architectureDiagram.png)
 - [The Test Plan](../Test/testPlan.md)
 - The Product
 - Unit Tests
@@ -84,11 +86,27 @@ The Final Product consists of:
 - An AI that processes voice orders and answers them as voice.
 - A database linked with the AI, containing and supplying personal information.
 
-## Personas and use cases
+## Personas and Use cases
 
-### Persona 1 - 
+### Persona 1 - Josh Kepper
 
-<!-- TO-DO -->
+| Josh Kepper                                                                      | 32 years old                                                                                                                                                                                                                                                                                     |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img alt="Josh Picture" src="./Img/joshKepper.png" style="max-width: 200px;"> | **Description:**<br>Josh is a caring son facing the challenges of caring for his father, who is suffering from Alzheimer's disease. Despite his demanding job, Josh prioritizes his family above all else.<br><br>**Frequence of use:** <br>- Often |
+
+##### Goals
+
+- Josh aims to provide the best possible care for his father while allowing him to maintain a sense of independence and dignity at home.
+- Josh wants a tool that can assist in monitoring his father's well-being and ensuring his safety, even if he's not physically present.
+- He desires a solution that can adapt to his father's preferences, habits, and changing needs over time.
+
+##### Challenges
+
+- Josh may face a learning curve in setting up and utilizing the AI system, especially if it involves complex configurations or interfaces.
+- Josh will need to trust that the AI can provide the right support at the right time.
+- He will need a solution that seamlessly fits into his father's daily life without causing disruption.
+
+<hr>
 
 #### Goals
   - <!-- TO-DO -->
@@ -115,6 +133,10 @@ The Final Product consists of:
 
 #### Challenges
   - <!-- TO-DO -->
+
+## Use cases
+
+<!-- TO-DO -->
 
 ## Acceptance criteria
 
@@ -147,10 +169,6 @@ The Final Product consists of:
 <!-- TO-DO -->
 
 ### Security
-
-<!-- TO-DO -->
-
-## Example
 
 <!-- TO-DO -->
 
