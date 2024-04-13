@@ -1,4 +1,4 @@
-# MonthlyReport1 
+# MonthlyReport1
 
 [cumulative monthly reports](monthlyReportCumulative.md)
 
@@ -33,7 +33,7 @@ The first month was dedicated to initiating the project. The Multitasker establi
 ## Time
 
 Working time has been calculated with the tool Wakatime.<br>
-10 working hours have been recorded.
+About 10 working hours have been recorded.
 
 ## Challenges
 

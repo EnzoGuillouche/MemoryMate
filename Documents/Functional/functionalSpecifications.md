@@ -48,7 +48,7 @@ The goal of the project is to create an Artificial Intelligence linked with a da
 
 | Full name       | Occupation               | Links                                                             |
 | --------------- | ------------------------ | ----------------------------------------------------------------- |
-| Enzo Guillouche | Project Multitasker     | [LinkedIn](https://www.linkedin.com/in/enzo-g-b62114293/) |
+| Enzo Guillouche | Project Multitasker     | [LinkedIn](https://www.linkedin.com/in/enzoguillouche/) |
 
 ### Other stakeholders
 
