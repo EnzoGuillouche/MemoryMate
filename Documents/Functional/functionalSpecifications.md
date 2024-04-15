@@ -1,4 +1,7 @@
-# MemoryMate - Functional specifications
+# MemoryMate
+<img src="./Img/MemoryMate.png" width="100">
+
+# Functional specifications
 
 This project has been started as my moonshot project for ALGOSUP.
 
@@ -7,14 +10,26 @@ The goal of the project is to create an Artificial Intelligence linked with a da
 <details>
 <summary>Table of Contents</summary>
 
-- [MemoryMate - Functional specifications](#memorymate---functional-specifications)
+- [MemoryMate](#memorymate)
+- [Functional specifications](#functional-specifications)
   - [Stakeholders](#stakeholders)
     - [Project member](#project-member)
     - [Other stakeholders](#other-stakeholders)
   - [Project scope](#project-scope)
-  - [Functional requirements](#functional-requirements)
   - [Deliverables and milestones](#deliverables-and-milestones)
-    - [Final Product](#final-product)
+  - [Functional requirements](#functional-requirements)
+    - [Product](#product)
+    - [Voice Recognition](#voice-recognition)
+    - [Personal Information Database](#personal-information-database)
+    - [Memory Aid Functionality](#memory-aid-functionality)
+    - [Voice Response](#voice-response)
+    - [Learning and Adaptation](#learning-and-adaptation)
+    - [Emergency Assistance](#emergency-assistance)
+    - [Accessibility Features](#accessibility-features)
+    - [Multi-language Support](#multi-language-support)
+    - [Security and Authentication](#security-and-authentication)
+    - [Scalability and Performance](#scalability-and-performance)
+    - [User Feedback and Reporting](#user-feedback-and-reporting)
   - [Personas and Use cases](#personas-and-use-cases)
     - [Persona 1 - Josh Kepper](#persona-1---josh-kepper)
         - [Goals](#goals)
@@ -65,10 +80,6 @@ We have multiple objectives for this project:
 - Implementation of a [NLP](#glossary) to process voices.
 - Security of the database and personal information.
 
-## Functional requirements
-
-<!-- TO-DO -->
-
 ## Deliverables and milestones
 
 - [Functional Specifications](../Functional/functionalSpecifications.md)
@@ -79,12 +90,70 @@ We have multiple objectives for this project:
 - Unit Tests
 - [All the Monthly Reports](../Management/MonthlyReports/monthlyReportCumulative.md)
 
-### Final Product
+## Functional requirements
 
-The Final Product consists of:
+### Product
 
-- An AI that processes voice orders and answers them as voice.
+The Product deals with:
+
+- An personal AI that processes voice orders and answers them as voice.
 - A database linked with the AI, containing and supplying personal information.
+
+It has to contain all the requirements below:
+
+### Voice Recognition
+
+- The system should accurately recognize the voices of registered users.
+- It should be able to distinguish between different users' voices.
+- The recognition should work even in noisy environments.
+
+### Personal Information Database
+
+- The system should have a secure database to store personal information of users.
+- It should allow authorized personnel to update and manage the database.
+- Compliance with data privacy regulations such as GDPR or HIPAA should be ensured.
+
+### Memory Aid Functionality
+
+- Memory prompts should be tailored to individual users based on their personal information.
+- The system should remind users of important events, appointments, and tasks.
+- It should assist users in recalling names, faces, and other relevant information.
+
+### Voice Response
+
+- The system should respond to user queries and prompts using natural language processing.
+- Responses should be clear, concise, and personalized based on the user's profile.
+
+### Learning and Adaptation
+
+- MemoryMate should continuously learn from user interactions and adapt its responses accordingly.
+- It should improve its accuracy in voice recognition and personalization over time.
+
+### Emergency Assistance
+
+- The system should have a feature to alert caregivers or emergency contacts in case of emergencies or when the user requires immediate assistance.
+
+### Accessibility Features
+
+- MemoryMate should have accessibility features such as adjustable font sizes, voice commands, and compatibility with screen readers for visually impaired users.
+
+### Multi-language Support
+
+- The system should support multiple languages to cater to users from diverse linguistic backgrounds.
+
+### Security and Authentication
+
+- Robust authentication mechanisms should be in place to ensure that only authorized users can access personal information stored in the database.
+- Measures like encryption should be implemented to protect sensitive data.
+
+### Scalability and Performance
+
+- Response times for voice recognition and query processing should be kept within acceptable limits.
+
+### User Feedback and Reporting
+
+- MemoryMate should allow users to provide feedback on the system's performance and suggest improvements.
+- It should generate reports for caregivers or healthcare professionals to track the user's interactions and usage patterns.
 
 ## Personas and Use cases
 
