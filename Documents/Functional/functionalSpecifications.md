@@ -31,27 +31,31 @@ The goal of the project is to create an Artificial Intelligence linked with a da
     - [Scalability and Performance](#scalability-and-performance)
     - [User Feedback and Reporting](#user-feedback-and-reporting)
   - [Personas and Use cases](#personas-and-use-cases)
-    - [Persona 1 - Josh Kepper](#persona-1---josh-kepper)
-        - [Goals](#goals)
-        - [Challenges](#challenges)
-      - [Goals](#goals-1)
-      - [Challenges](#challenges-1)
-    - [Persona 2 -](#persona-2--)
+    - [Persona 1 - Daniella Brabushka](#persona-1---daniella-brabushka)
+      - [Goals](#goals)
+      - [Challenges](#challenges)
+    - [Persona 2 - Josh Kepper](#persona-2---josh-kepper)
+        - [Goals](#goals-1)
+        - [Challenges](#challenges-1)
+    - [Persona 3 - Jessica Yota](#persona-3---jessica-yota)
       - [Goals](#goals-2)
       - [Challenges](#challenges-2)
-    - [Persona 3 -](#persona-3--)
-      - [Goals](#goals-3)
-      - [Challenges](#challenges-3)
-  - [Use cases](#use-cases)
+    - [Use cases](#use-cases)
   - [Acceptance criteria](#acceptance-criteria)
   - [Solution overview](#solution-overview)
   - [Non-functional requirements](#non-functional-requirements)
-    - [Performance](#performance)
-    - [Maintainability](#maintainability)
-    - [Scalability](#scalability)
-    - [Portability](#portability)
-    - [Usability](#usability)
-    - [Security](#security)
+    - [Product](#product-1)
+    - [Voice Recognition](#voice-recognition-1)
+    - [Personal Information Database](#personal-information-database-1)
+    - [Memory Aid Functionality](#memory-aid-functionality-1)
+    - [Voice Response](#voice-response-1)
+    - [Learning and Adaptation](#learning-and-adaptation-1)
+    - [Emergency Assistance](#emergency-assistance-1)
+    - [Accessibility Features](#accessibility-features-1)
+    - [Multi-language Support](#multi-language-support-1)
+    - [Security and Authentication](#security-and-authentication-1)
+    - [Scalability and Performance](#scalability-and-performance-1)
+    - [User Feedback and Reporting](#user-feedback-and-reporting-1)
   - [Risks and assumptions](#risks-and-assumptions)
   - [Future improvements](#future-improvements)
   - [Glossary](#glossary)
@@ -111,7 +115,7 @@ It has to contain all the requirements below:
 
 - The system should have a secure database to store personal information of users.
 - It should allow authorized personnel to update and manage the database.
-- Compliance with data privacy regulations such as GDPR or HIPAA should be ensured.
+- Compliance with data privacy regulations such as [GDPR or HIPAA](#glossary) should be ensured.
 
 ### Memory Aid Functionality
 
@@ -157,7 +161,27 @@ It has to contain all the requirements below:
 
 ## Personas and Use cases
 
-### Persona 1 - Josh Kepper
+### Persona 1 - Daniella Brabushka
+
+| Daniella Brabushka                                                                      | 69 years old                                                                                                                                                                                                                                                                                     |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img alt="Daniella Picture" src="./Img/daniellaBrabushka.png" style="max-width: 200px;"> | **Description:**<br>Daniella is a woman suffering from Alzheimer's and diabetes. She's quite autonomous though she's having a hard time remembering important things such as appointments and insuline injections.<br><br>**Frequence of use:** <br>- Often |
+
+#### Goals
+
+- Daniella wants an AI that can remind her of important appointments, tasks, and events throughout the day.
+- She wants to remember to take her medication on time and in the correct doses.
+- She wants something offering companionship and reassurance during moments of confusion or distress.
+- She wants a tool being able to call for help in case of emergencies, such as falls or medical issues.
+
+#### Challenges
+
+- Daniella could have a hard time dealing with the fact that she may forget how to interact with the AI or forget the purpose of certain features over time.
+- The AI needs to adapt to Daniella's changing needs and abilities as her condition progresses.
+- Communication and coordination between the AI and Daniella's caregivers should be regulated and calibrated, to ensure consistent support.
+- She will have to create a sense of trust and familiarity between her and the AI to encourage her to rely on it for assistance.
+
+### Persona 2 - Josh Kepper
 
 | Josh Kepper                                                                      | 32 years old                                                                                                                                                                                                                                                                                     |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -166,26 +190,22 @@ It has to contain all the requirements below:
 ##### Goals
 
 - Josh aims to provide the best possible care for his father while allowing him to maintain a sense of independence and dignity at home.
-- Josh wants a tool that can assist in monitoring his father's well-being and ensuring his safety, even if he's not physically present.
+- He wants a tool that can assist in monitoring his father's well-being and ensuring his safety, even if he's not physically present.
 - He desires a solution that can adapt to his father's preferences, habits, and changing needs over time.
 
 ##### Challenges
 
 - Josh may face a learning curve in setting up and utilizing the AI system, especially if it involves complex configurations or interfaces.
-- Josh will need to trust that the AI can provide the right support at the right time.
+- He will need to trust that the AI can provide the right support at the right time.
 - He will need a solution that seamlessly fits into his father's daily life without causing disruption.
 
 <hr>
 
-#### Goals
-  - <!-- TO-DO -->
+### Persona 3 - Jessica Yota
 
-#### Challenges
-  - <!-- TO-DO -->
-
-### Persona 2 - 
-
-<!-- TO-DO -->
+| Jessica Yota                                                                      | 27 years old                                                                                                                                                                                                                                                                                     |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img alt="Josh Picture" src="./Img/jessicaYota.png" style="max-width: 200px;"> | **Description:**<br>Jessica is a care assistant helping her patients at home, who is suffering from Alzheimer's disease. She's dedicated to her job, regardless how many patients she has.<br><br>**Frequence of use:** <br>- Sometimes |
 
 #### Goals
   - <!-- TO-DO -->
@@ -193,17 +213,7 @@ It has to contain all the requirements below:
 #### Challenges
   - <!-- TO-DO -->
 
-### Persona 3 - 
-
-<!-- TO-DO -->
-
-#### Goals
-  - <!-- TO-DO -->
-
-#### Challenges
-  - <!-- TO-DO -->
-
-## Use cases
+### Use cases
 
 <!-- TO-DO -->
 
@@ -217,37 +227,71 @@ It has to contain all the requirements below:
 
 ## Non-functional requirements
 
-### Performance
+### Product
 
-<!-- TO-DO -->
+The Product deals with:
 
-### Maintainability
+- An personal AI that processes voice orders and answers them as voice.
+- A database linked with the AI, containing and supplying personal information.
 
-<!-- TO-DO -->
+It has to contain all the requirements below:
 
-### Scalability
+### Voice Recognition
 
-<!-- TO-DO -->
+- The system should accurately recognize the voices of registered users.
+- It should be able to distinguish between different users' voices.
+- The recognition should work even in noisy environments.
 
-### Portability
+### Personal Information Database
 
-<!-- TO-DO -->
+- The system should have a secure database to store personal information of users.
+- It should allow authorized personnel to update and manage the database.
+- Compliance with data privacy regulations such as [GDPR or HIPAA](#glossary) should be ensured.
 
-### Usability
+### Memory Aid Functionality
 
-<!-- TO-DO -->
+- Memory prompts should be tailored to individual users based on their personal information.
+- The system should remind users of important events, appointments, and tasks.
+- It should assist users in recalling names, faces, and other relevant information.
 
-### Security
+### Voice Response
 
-<!-- TO-DO -->
+- The system should respond to user queries and prompts using natural language processing.
+- Responses should be clear, concise, and personalized based on the user's profile.
+
+### Learning and Adaptation
+
+- MemoryMate should continuously learn from user interactions and adapt its responses accordingly.
+- It should improve its accuracy in voice recognition and personalization over time.
+
+### Emergency Assistance
+
+- The system should have a feature to alert caregivers or emergency contacts in case of emergencies or when the user requires immediate assistance.
+
+### Accessibility Features
+
+- MemoryMate should have accessibility features such as adjustable font sizes, voice commands, and compatibility with screen readers for visually impaired users.
+
+### Multi-language Support
+
+- The system should support multiple languages to cater to users from diverse linguistic backgrounds.
+
+### Security and Authentication
+
+- Robust authentication mechanisms should be in place to ensure that only authorized users can access personal information stored in the database.
+- Measures like encryption should be implemented to protect sensitive data.
+
+### Scalability and Performance
+
+### User Feedback and Reporting
 
 ## Risks and assumptions
 
-- <!-- TO-DO -->
+<!-- TO-DO -->
 
 ## Future improvements
 
-- <!-- TO-DO -->
+<!-- TO-DO -->
 
 ## Glossary
 
@@ -258,3 +302,11 @@ A database is an organized collection of data or a type of data store based on t
 **Natural Language Processing (NLP)** \
 NLP is primarily concerned with giving computers the ability to support and manipulate human language. It involves processing natural language datasets, such as text corpora or speech corpora, using either rule-based or probabilistic machine learning approaches.
 [Wikipedia](https://en.wikipedia.org/wiki/Natural_language_processing)
+
+**GDPR (General Data Protection Regulation)** \
+GDPR is a regulation in EU law on data protection and privacy concerning all individuals within the European Union (EU) and the European Economic Area (EEA). It also addresses the export of personal data outside these areas. It aims to give control to individuals over their personal data and to simplify the regulatory environment for international business by unifying the regulation within the EU.
+[Wikipedia](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)
+
+**HIPAA (Health Insurance Portability and Accountability Act)** \
+HIPAA is a United States legislation that provides data privacy and security provisions for safeguarding medical information. It was enacted to protect patient confidentiality and secure health information. HIPAA applies to healthcare providers, health plans, and healthcare clearinghouses, as well as their business associates who handle Protected Health Information (PHI).
+[Wikipedia](https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act)
