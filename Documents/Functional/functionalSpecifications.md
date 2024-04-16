@@ -13,11 +13,11 @@ The goal of the project is to create an Artificial Intelligence linked with a da
 - [MemoryMate](#memorymate)
 - [Functional specifications](#functional-specifications)
   - [Stakeholders](#stakeholders)
-    - [Project member](#project-member)
-    - [Other stakeholders](#other-stakeholders)
-  - [Project scope](#project-scope)
-  - [Deliverables and milestones](#deliverables-and-milestones)
-  - [Functional requirements](#functional-requirements)
+    - [Project Member](#project-member)
+    - [Other Stakeholders](#other-stakeholders)
+  - [Project Scope](#project-scope)
+  - [Deliverables and Milestones](#deliverables-and-milestones)
+  - [Functional Requirements](#functional-requirements)
     - [Product](#product)
     - [Voice Recognition](#voice-recognition)
     - [Personal Information Database](#personal-information-database)
@@ -30,7 +30,7 @@ The goal of the project is to create an Artificial Intelligence linked with a da
     - [Security and Authentication](#security-and-authentication)
     - [Scalability and Performance](#scalability-and-performance)
     - [User Feedback and Reporting](#user-feedback-and-reporting)
-  - [Personas and Use cases](#personas-and-use-cases)
+  - [Personas and Use Cases](#personas-and-use-cases)
     - [Persona 1 - Daniella Brabushka](#persona-1---daniella-brabushka)
       - [Goals](#goals)
       - [Challenges](#challenges)
@@ -40,8 +40,8 @@ The goal of the project is to create an Artificial Intelligence linked with a da
     - [Persona 3 - Jessica Yota](#persona-3---jessica-yota)
       - [Goals](#goals-2)
       - [Challenges](#challenges-2)
-    - [Use cases](#use-cases)
-  - [Acceptance criteria](#acceptance-criteria)
+    - [Use Cases](#use-cases)
+  - [Acceptance Criteria](#acceptance-criteria)
     - [Voice Recognition](#voice-recognition-1)
     - [Personal Information Database](#personal-information-database-1)
     - [Memory Aid Functionality](#memory-aid-functionality-1)
@@ -53,7 +53,8 @@ The goal of the project is to create an Artificial Intelligence linked with a da
     - [Security and Authentication](#security-and-authentication-1)
     - [Scalability and Performance](#scalability-and-performance-1)
     - [User Feedback and Reporting](#user-feedback-and-reporting-1)
-  - [Non-functional requirements](#non-functional-requirements)
+  - [Solution Overview](#solution-overview)
+  - [Non-functional Requirements](#non-functional-requirements)
     - [Product](#product-1)
     - [Voice Recognition](#voice-recognition-2)
     - [Personal Information Database](#personal-information-database-2)
@@ -66,26 +67,26 @@ The goal of the project is to create an Artificial Intelligence linked with a da
     - [Security and Authentication](#security-and-authentication-2)
     - [Scalability and Performance](#scalability-and-performance-2)
     - [User Feedback and Reporting](#user-feedback-and-reporting-2)
-  - [Risks and assumptions](#risks-and-assumptions)
-  - [Future improvements](#future-improvements)
+  - [Risks and Assumptions](#risks-and-assumptions)
+  - [Future Improvements](#future-improvements)
   - [Glossary](#glossary)
 </summary></details>
 
 ## Stakeholders
 
-### Project member
+### Project Member
 
 | Name        | Occupation               | Links                                                             |
 | --------------- | ------------------------ | ----------------------------------------------------------------- |
 | Enzo GUILLOUCHE | Project Multitasker     | [LinkedIn](https://www.linkedin.com/in/enzoguillouche/) |
 
-### Other stakeholders
+### Other Stakeholders
 
 | Name           | Occupation                  | Links                          |
 | -------------- | --------------------------- | ------------------------------ |
 | Franck JEANNIN | ALGOSUP's director | [Website](https://algosup.com/en.html) |
 
-## Project scope
+## Project Scope
 
 We have multiple objectives for this project:
 
@@ -94,7 +95,7 @@ We have multiple objectives for this project:
 - Implementation of a [NLP](#glossary) to process voices.
 - Security of the database and personal information.
 
-## Deliverables and milestones
+## Deliverables and Milestones
 
 - [Functional Specifications](../Functional/functionalSpecifications.md)
 - [Technical Specifications](../Technical/technicalSpecifications.md)
@@ -104,7 +105,7 @@ We have multiple objectives for this project:
 - Unit Tests
 - [All the Monthly Reports](../Management/MonthlyReports/monthlyReportCumulative.md)
 
-## Functional requirements
+## Functional Requirements
 
 ### Product
 
@@ -169,7 +170,7 @@ It has to contain all the requirements below:
 - MemoryMate should allow users to provide feedback on the system's performance and suggest improvements.
 - It should generate reports for caregivers or healthcare professionals to track the user's interactions and usage patterns.
 
-## Personas and Use cases
+## Personas and Use Cases
 
 ### Persona 1 - Daniella Brabushka
 
@@ -227,11 +228,11 @@ It has to contain all the requirements below:
 - Jessica wonders if she needs to be available at any time if something goes wrong.
 - She's nervous not knowing whether the AI will be the same for her and her patients or not, in terms of functionalities and accessibility.
 
-### Use cases
+### Use Cases
 
 <!-- TO-DO -->
 
-## Acceptance criteria
+## Acceptance Criteria
 
 ### Voice Recognition
 
@@ -287,57 +288,65 @@ It has to contain all the requirements below:
 - Users should be able to provide feedback on the system's performance and suggest improvements through an intuitive feedback mechanism.
 - Reports generated by MemoryMate for caregivers and healthcare professionals should be comprehensive and actionable, providing insights into user interactions and usage patterns.
 
-## Non-functional requirements
-
-### Product
-
-
-
-### Voice Recognition
-
-
-
-### Personal Information Database
-
-
-
-### Memory Aid Functionality
-
-
-
-### Voice Response
-
-
-
-### Learning and Adaptation
-
-
-
-### Emergency Assistance
-
-
-
-### Accessibility Features
-
-
-
-### Multi-language Support
-
-
-
-### Security and Authentication
-
-
-
-### Scalability and Performance
-
-### User Feedback and Reporting
-
-## Risks and assumptions
+## Solution Overview
 
 <!-- TO-DO -->
 
-## Future improvements
+## Non-functional Requirements
+
+### Product
+
+<!-- TO-DO -->
+
+### Voice Recognition
+
+<!-- TO-DO -->
+
+### Personal Information Database
+
+<!-- TO-DO -->
+
+### Memory Aid Functionality
+
+<!-- TO-DO -->
+
+### Voice Response
+
+<!-- TO-DO -->
+
+### Learning and Adaptation
+
+<!-- TO-DO -->
+
+### Emergency Assistance
+
+<!-- TO-DO -->
+
+### Accessibility Features
+
+<!-- TO-DO -->
+
+### Multi-language Support
+
+<!-- TO-DO -->
+
+### Security and Authentication
+
+<!-- TO-DO -->
+
+### Scalability and Performance
+
+<!-- TO-DO -->
+
+### User Feedback and Reporting
+
+<!-- TO-DO -->
+
+## Risks and Assumptions
+
+<!-- TO-DO -->
+
+## Future Improvements
 
 <!-- TO-DO -->
 
