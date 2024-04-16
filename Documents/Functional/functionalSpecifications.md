@@ -42,7 +42,6 @@ The goal of the project is to create an Artificial Intelligence linked with a da
       - [Challenges](#challenges-2)
     - [Use cases](#use-cases)
   - [Acceptance criteria](#acceptance-criteria)
-  - [Solution overview](#solution-overview)
   - [Non-functional requirements](#non-functional-requirements)
     - [Product](#product-1)
     - [Voice Recognition](#voice-recognition-1)
@@ -208,10 +207,14 @@ It has to contain all the requirements below:
 | <img alt="Josh Picture" src="./Img/jessicaYota.png" style="max-width: 200px;"> | **Description:**<br>Jessica is a care assistant helping her patients at home, who is suffering from Alzheimer's disease. She's dedicated to her job, regardless how many patients she has.<br><br>**Frequence of use:** <br>- Sometimes |
 
 #### Goals
-  - <!-- TO-DO -->
+
+- Jessica wants the best for her patients. She will need a tool that would help her look after many patients.
+- She would want to monitor and help specific patients 24/7, due to their specificities.
 
 #### Challenges
-  - <!-- TO-DO -->
+
+- Jessica wonders if she needs to be available at any time if something goes wrong.
+- She's nervous not knowing whether the AI will be the same for her and her patients or not, in terms of functionalities and accessibility.
 
 ### Use cases
 
@@ -221,65 +224,47 @@ It has to contain all the requirements below:
 
 <!-- TO-DO -->
 
-## Solution overview
-
-<!-- TO-DO -->
-
 ## Non-functional requirements
 
 ### Product
 
-The Product deals with:
 
-- An personal AI that processes voice orders and answers them as voice.
-- A database linked with the AI, containing and supplying personal information.
-
-It has to contain all the requirements below:
 
 ### Voice Recognition
 
-- The system should accurately recognize the voices of registered users.
-- It should be able to distinguish between different users' voices.
-- The recognition should work even in noisy environments.
+
 
 ### Personal Information Database
 
-- The system should have a secure database to store personal information of users.
-- It should allow authorized personnel to update and manage the database.
-- Compliance with data privacy regulations such as [GDPR or HIPAA](#glossary) should be ensured.
+
 
 ### Memory Aid Functionality
 
-- Memory prompts should be tailored to individual users based on their personal information.
-- The system should remind users of important events, appointments, and tasks.
-- It should assist users in recalling names, faces, and other relevant information.
+
 
 ### Voice Response
 
-- The system should respond to user queries and prompts using natural language processing.
-- Responses should be clear, concise, and personalized based on the user's profile.
+
 
 ### Learning and Adaptation
 
-- MemoryMate should continuously learn from user interactions and adapt its responses accordingly.
-- It should improve its accuracy in voice recognition and personalization over time.
+
 
 ### Emergency Assistance
 
-- The system should have a feature to alert caregivers or emergency contacts in case of emergencies or when the user requires immediate assistance.
+
 
 ### Accessibility Features
 
-- MemoryMate should have accessibility features such as adjustable font sizes, voice commands, and compatibility with screen readers for visually impaired users.
+
 
 ### Multi-language Support
 
-- The system should support multiple languages to cater to users from diverse linguistic backgrounds.
+
 
 ### Security and Authentication
 
-- Robust authentication mechanisms should be in place to ensure that only authorized users can access personal information stored in the database.
-- Measures like encryption should be implemented to protect sensitive data.
+
 
 ### Scalability and Performance
 

@@ -33,7 +33,7 @@ The first month was dedicated to initiating the project. The Multitasker establi
 ## Time
 
 Working time has been calculated with the tool Wakatime.<br>
-About 11 working hours have been recorded.
+About 12 working hours have been recorded.
 
 ## Challenges
 
