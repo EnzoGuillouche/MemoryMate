@@ -75,15 +75,15 @@ The goal of the project is to create an Artificial Intelligence linked with a da
 
 ### Project member
 
-| Full name       | Occupation               | Links                                                             |
+| Name        | Occupation               | Links                                                             |
 | --------------- | ------------------------ | ----------------------------------------------------------------- |
-| Enzo Guillouche | Project Multitasker     | [LinkedIn](https://www.linkedin.com/in/enzoguillouche/) |
+| Enzo GUILLOUCHE | Project Multitasker     | [LinkedIn](https://www.linkedin.com/in/enzoguillouche/) |
 
 ### Other stakeholders
 
 | Name           | Occupation                  | Links                          |
 | -------------- | --------------------------- | ------------------------------ |
-| Franck JEANNIN | ALGOSUP's director | [Website](https://algosup.com) |
+| Franck JEANNIN | ALGOSUP's director | [Website](https://algosup.com/en.html) |
 
 ## Project scope
 
