@@ -15,14 +15,14 @@
 ## Overview of the project
 
 MemoryMate is a project that has been started as my moonshot project for ALGOSUP.<br>
-This project would deal with developing an AI system that supports individuals with Alzheimer's in their daily lives. It could find some personal information from a database, and supply the information to the people with reminders, or if they ask for. It would be a way to support people who are often alone.
+This project deals with developing an AI system that supports individuals with Alzheimer's in their daily lives. It could find some personal information from a database, and supply the information to the people with reminders, or if they ask for. It would be a way to support people who are often alone.
 
 ## Deliverables
 
-Throughout the years of work, all of the following documents must be made public. The stakeholders could therefore check the progress of the project in real time. The milestones are therefore:
+Throughout the years of work, all of the following documents must be public. The stakeholders could therefore check the progress of the project in real time. The milestones are therefore:
 
-- [Functional Specifications Document](../Functional/functionalSpecifications.md)
-- [Technical Specifications Document](../Technical/technicalSpecifications.md)
+- [Functional Specifications](../Functional/functionalSpecifications.md)
+- [Technical Specifications](../Technical/technicalSpecifications.md)
 - [The Architecture Diagram](../Technical/architectureDiagram.png)
 - [The Test Plan](../Test/testPlan.md)
 - The Product
@@ -31,7 +31,8 @@ Throughout the years of work, all of the following documents must be made public
 
 ## Time Management
 
-ALGOSUP doesn't supply any dedicated time to work on this project. The project will be managed and developed during free time.
+ALGOSUP doesn't supply any dedicated time to work on this project. The project will be managed and developed during free time.<br>
+However, the tool Wakatime will be used to record and track the amount of working time done. These tracks will be available in the [Monthly Reports](../Management/MonthlyReports/monthlyReportCumulative.md).
 
 ## Budget
 
