@@ -296,7 +296,7 @@ It has to contain all the requirements below:
 - A computer would be the centralized device that manages all the system. We would be able to interact with the AI with it, manage the database, send feedbacks, change settings, etc.
 - The system would need a powerful microphone to understand clearly voices, and powerful speakers to be clearly understandable.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3diBbLyJbm7egivyZ0d9sq%2FMemoryMate-prototype%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D3-15%26viewport%3D400%252C406%252C1%26t%3DO5Os9OIqrCHJ96ZL-1%26scaling%3Dmin-zoom%26mode%3Ddesign" allowfullscreen></iframe>
+![Figma Prototype](./Img/prototype.png)
 
 ## Non-functional Requirements
 
