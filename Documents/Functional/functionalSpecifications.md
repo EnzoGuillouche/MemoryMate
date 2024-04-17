@@ -1,7 +1,7 @@
 # MemoryMate
 <img src="./Img/MemoryMate.png" width="100">
 
-# Functional specifications
+# Functional Specifications
 
 This project has been started as my moonshot project for ALGOSUP.
 
@@ -11,7 +11,7 @@ The goal of the project is to create an Artificial Intelligence linked with a da
 <summary>Table of Contents</summary>
 
 - [MemoryMate](#memorymate)
-- [Functional specifications](#functional-specifications)
+- [Functional Specifications](#functional-specifications)
   - [Stakeholders](#stakeholders)
     - [Project Member](#project-member)
     - [Other Stakeholders](#other-stakeholders)
@@ -109,9 +109,9 @@ We have multiple objectives for this project:
 
 ### Product
 
-The Product deals with:
+The product deals with:
 
-- An personal AI that processes voice orders and answers them as voice.
+- A personal AI that processes voice orders and answers them as voice.
 - A database linked with the AI, containing and supplying personal information.
 
 It has to contain all the requirements below:
@@ -130,7 +130,7 @@ It has to contain all the requirements below:
 
 ### Memory Aid Functionality
 
-- Memory prompts should be tailored to individual users based on their personal information.
+- MemoryMate prompts should be tailored to individual users based on their personal information.
 - The system should remind users of important events, appointments, and tasks.
 - It should assist users in recalling names, faces, and other relevant information.
 
