@@ -290,7 +290,13 @@ It has to contain all the requirements below:
 
 ## Solution Overview
 
-<!-- TO-DO -->
+**MemoryMate would be an AI system.**
+- It would therefore contain an AI, helping people in their everyday lives. The AI would communicate with the patients by voice, it means that either the patients and the AI would talk.
+- A secured database would be linked to the AI, it's where the system can find any specific or personal information about the patient. The information can be supplied whether by the patient himself or by caregivers.
+- A computer would be the centralized device that manages all the system. We would be able to interact with the AI with it, manage the database, send feedbacks, change settings, etc.
+- The system would need a powerful microphone to understand clearly voices, and powerful speakers to be clearly understandable.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3diBbLyJbm7egivyZ0d9sq%2FMemoryMate-prototype%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D3-15%26viewport%3D400%252C406%252C1%26t%3DO5Os9OIqrCHJ96ZL-1%26scaling%3Dmin-zoom%26mode%3Ddesign" allowfullscreen></iframe>
 
 ## Non-functional Requirements
 
@@ -348,7 +354,7 @@ It has to contain all the requirements below:
 
 ## Future Improvements
 
-<!-- TO-DO -->
+- MemoryMate could be linked with reminder systems, such as calendars or Todoist.
 
 ## Glossary
 
