@@ -22,7 +22,7 @@ The first month was dedicated to initiating the project. The Multitasker establi
   
 2. Meeting with care assistants
     - Meetings have been done with care assistants.
-    - The meeting report is available [here](../../Communication/MeetingReports/meetingReportCA.md).
+    - The meeting report is available [here](../../Communication/MeetingReports/meetingReportCA-3-23.md).
 
 3. Documents
     - The Project Charter is complete.
