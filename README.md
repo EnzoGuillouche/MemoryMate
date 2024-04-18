@@ -12,7 +12,7 @@ This project would deal with developing an AI system that supports individuals w
 
 - Python programming language -> popular in the field of artificial intelligence and machine learning
 - Natural Language Processing (NLP) -> to understand and process natural language queries
-- Database -> to stock and supply some information
+- Database (SQL) -> to stock and supply some information
 - Web Development -> to create a user interface through which individuals can interact with the AI [**OPTIONAL**]
 
 ## Contributors
