@@ -154,7 +154,7 @@ It has to contain all the requirements below:
 
 ### Multi-language Support
 
-- The system should support multiple languages to cater to users from diverse linguistic backgrounds.
+- The system should support multiple languages to supply understandable information to users from diverse linguistic backgrounds.
 
 ### Security and Authentication
 
@@ -230,7 +230,20 @@ It has to contain all the requirements below:
 
 ### Use Cases
 
-<!-- TO-DO -->
+**Actor: Alzheimer's patient**
+The user relies on MemoryMate to remind them of daily tasks, events and medication. They use voice commands to ask MemoryMate about upcoming appointments, medication schedules, or important dates. MemoryMate provides personalized reminders based on the user's profile and preferences, helping the user stay organized and independent.
+
+**Actor: Alzheimer's patient**
+The user engages in conversations with MemoryMate to remember about past experiences, family members, or hobbies. MemoryMate utilizes its database of personal information to tailor the conversation to the user's interests and memories. It prompts the user with relevant questions and anecdotes, providing companionship and cognitive stimulation.
+
+**Actor: Alzheimer's patient, caregiver**
+MemoryMate's emergency assistance feature detects an unexpected sound, and asks the patient if he's whether safe or not. If there's no answer, MemoryMate alerts designated caregivers or emergency contacts, providing them with the user's location and relevant medical information from the database. Caregivers can then take appropriate action to ensure the user's safety and well-being.
+
+**Actor: Multilingual Alzheimer's patient**
+The user communicates with MemoryMate in their preferred language, which may differ from the default language of the system. MemoryMate recognizes the user's language preference and responds accordingly, providing assistance and information in the desired language. This feature enhances accessibility for users from diverse linguistic backgrounds, ensuring effective communication and understanding.
+
+**Actor: Alzheimer's patient, caregiver**
+As the user and their caregivers use MemoryMate, it  triggers a feedback mechanism integrated into its system to report any issues encountered or suggest improvements. MemoryMate collects and analyzes this feedback to identify areas for enhancement and refinement. Based on user input, MemoryMate iteratively improves its functionalities and user experience at any time, ultimately better serving the needs of individuals with Alzheimer's and their caregivers.
 
 ## Acceptance Criteria
 
@@ -354,7 +367,8 @@ It has to contain all the requirements below:
 
 ## Future Improvements
 
-- MemoryMate could be linked with reminder systems, such as calendars or Todoist.
+- MemoryMate could be linked with existing reminder systems, such as calendars or Todoist.
+- MemoryMate could be linked to a mobile application, to facilitate the communication with care givers.
 
 ## Glossary
 
