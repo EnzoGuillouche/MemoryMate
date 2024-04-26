@@ -1,4 +1,5 @@
 # MemoryMate
+
 <img src="./Img/MemoryMate.png" width="100">
 
 # Functional Specifications
@@ -35,8 +36,8 @@ The goal of the project is to create an Artificial Intelligence linked with a da
       - [Goals](#goals)
       - [Challenges](#challenges)
     - [Persona 2 - Josh Kepper](#persona-2---josh-kepper)
-        - [Goals](#goals-1)
-        - [Challenges](#challenges-1)
+      - [Goals](#goals-1)
+      - [Challenges](#challenges-1)
     - [Persona 3 - Jessica Yota](#persona-3---jessica-yota)
       - [Goals](#goals-2)
       - [Challenges](#challenges-2)
@@ -55,35 +56,31 @@ The goal of the project is to create an Artificial Intelligence linked with a da
     - [User Feedback and Reporting](#user-feedback-and-reporting-1)
   - [Solution Overview](#solution-overview)
   - [Non-functional Requirements](#non-functional-requirements)
-    - [Product](#product-1)
-    - [Voice Recognition](#voice-recognition-2)
-    - [Personal Information Database](#personal-information-database-2)
-    - [Memory Aid Functionality](#memory-aid-functionality-2)
-    - [Voice Response](#voice-response-2)
-    - [Learning and Adaptation](#learning-and-adaptation-2)
-    - [Emergency Assistance](#emergency-assistance-2)
-    - [Accessibility Features](#accessibility-features-2)
-    - [Multi-language Support](#multi-language-support-2)
-    - [Security and Authentication](#security-and-authentication-2)
-    - [Scalability and Performance](#scalability-and-performance-2)
-    - [User Feedback and Reporting](#user-feedback-and-reporting-2)
+    - [Performance](#performance)
+    - [Reliability](#reliability)
+    - [Usability](#usability)
+    - [Scalability](#scalability)
+    - [Security](#security)
+    - [Maintainability](#maintainability)
+    - [Integration](#integration)
+    - [Environmental](#environmental)
+    - [Legal](#legal)
   - [Risks and Assumptions](#risks-and-assumptions)
   - [Future Improvements](#future-improvements)
   - [Glossary](#glossary)
-</summary></details>
 
 ## Stakeholders
 
 ### Project Member
 
-| Name        | Occupation               | Links                                                             |
-| --------------- | ------------------------ | ----------------------------------------------------------------- |
-| Enzo GUILLOUCHE | Project Multitasker     | [LinkedIn](https://www.linkedin.com/in/enzoguillouche/) |
+| Name            | Occupation          | Links                                                   |
+| --------------- | ------------------- | ------------------------------------------------------- |
+| Enzo GUILLOUCHE | Project Multitasker | [LinkedIn](https://www.linkedin.com/in/enzoguillouche/) |
 
 ### Other Stakeholders
 
-| Name           | Occupation                  | Links                          |
-| -------------- | --------------------------- | ------------------------------ |
+| Name           | Occupation         | Links                                  |
+| -------------- | ------------------ | -------------------------------------- |
 | Franck JEANNIN | ALGOSUP's director | [Website](https://algosup.com/en.html) |
 
 ## Project Scope
@@ -174,8 +171,8 @@ It has to contain all the requirements below:
 
 ### Persona 1 - Daniella Brabushka
 
-| Daniella Brabushka                                                                      | 69 years old                                                                                                                                                                                                                                                                                     |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Daniella Brabushka                                                                       | 69 years old                                                                                                                                                                                                                                                |
+| ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img alt="Daniella Picture" src="./Img/daniellaBrabushka.png" style="max-width: 200px;"> | **Description:**<br>Daniella is a woman suffering from Alzheimer's and diabetes. She's quite autonomous though she's having a hard time remembering important things such as appointments and insuline injections.<br><br>**Frequence of use:** <br>- Often |
 
 #### Goals
@@ -194,8 +191,8 @@ It has to contain all the requirements below:
 
 ### Persona 2 - Josh Kepper
 
-| Josh Kepper                                                                      | 32 years old                                                                                                                                                                                                                                                                                     |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Josh Kepper                                                                   | 32 years old                                                                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img alt="Josh Picture" src="./Img/joshKepper.png" style="max-width: 200px;"> | **Description:**<br>Josh is a caring son facing the challenges of caring for his father, who is suffering from Alzheimer's disease. Despite his demanding job, Josh prioritizes his family above all else.<br><br>**Frequence of use:** <br>- Often |
 
 ##### Goals
@@ -214,8 +211,8 @@ It has to contain all the requirements below:
 
 ### Persona 3 - Jessica Yota
 
-| Jessica Yota                                                                      | 27 years old                                                                                                                                                                                                                                                                                     |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Jessica Yota                                                                   | 27 years old                                                                                                                                                                                                                            |
+| ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img alt="Josh Picture" src="./Img/jessicaYota.png" style="max-width: 200px;"> | **Description:**<br>Jessica is a care assistant helping her patients at home, who is suffering from Alzheimer's disease. She's dedicated to her job, regardless how many patients she has.<br><br>**Frequence of use:** <br>- Sometimes |
 
 #### Goals
@@ -243,7 +240,7 @@ MemoryMate's emergency assistance feature detects an unexpected sound, and asks 
 The user communicates with MemoryMate in their preferred language, which may differ from the default language of the system. MemoryMate recognizes the user's language preference and responds accordingly, providing assistance and information in the desired language. This feature enhances accessibility for users from diverse linguistic backgrounds, ensuring effective communication and understanding.
 
 **Actor: Alzheimer's patient, caregiver**
-As the user and their caregivers use MemoryMate, it  triggers a feedback mechanism integrated into its system to report any issues encountered or suggest improvements. MemoryMate collects and analyzes this feedback to identify areas for enhancement and refinement. Based on user input, MemoryMate iteratively improves its functionalities and user experience at any time, ultimately better serving the needs of individuals with Alzheimer's and their caregivers.
+As the user and their caregivers use MemoryMate, it triggers a feedback mechanism integrated into its system to report any issues encountered or suggest improvements. MemoryMate collects and analyzes this feedback to identify areas for enhancement and refinement. Based on user input, MemoryMate iteratively improves its functionalities and user experience at any time, ultimately better serving the needs of individuals with Alzheimer's and their caregivers.
 
 ## Acceptance Criteria
 
@@ -304,6 +301,7 @@ As the user and their caregivers use MemoryMate, it  triggers a feedback mechani
 ## Solution Overview
 
 **MemoryMate would be an AI system.**
+
 - It would therefore contain an AI, helping people in their everyday lives. The AI would communicate with the patients by voice, it means that either the patients and the AI would talk.
 - A secured database would be linked to the AI, it's where the system can find any specific or personal information about the patient. The information can be supplied whether by the patient himself or by caregivers.
 - A computer would be the centralized device that manages all the system. We would be able to interact with the AI with it, manage the database, send feedbacks, change settings, etc.
@@ -313,62 +311,61 @@ As the user and their caregivers use MemoryMate, it  triggers a feedback mechani
 
 ## Non-functional Requirements
 
-### Product
+### Performance
 
-<!-- TO-DO -->
+- The system should respond to voice commands within 2 seconds under normal operation conditions.
 
-### Voice Recognition
+### Reliability
 
-<!-- TO-DO -->
+- The system should be able to recover from common errors without impacting user interaction.
+- Regular backups of the personal information database should occur at least daily, with the ability to restore data to any point within the last 48 hours.
 
-### Personal Information Database
+### Usability
 
-<!-- TO-DO -->
+- The interface should be simple and intuitive for users of all technical skills, especially considering the cognitive challenges faced by users.
 
-### Memory Aid Functionality
+### Scalability
 
-<!-- TO-DO -->
+- The database should be able to handle an increase in data volume from user interactions without performance loss.
 
-### Voice Response
+### Security
 
-<!-- TO-DO -->
+- All personal data stored and transmitted should be encrypted using industry-standard encryption protocols (e.g., AES-256).
+- The system must adhere to the highest security standards and be compliant with GDPR, HIPAA, and other relevant data protection regulations.
+- Implement multi-factor authentication or a single powerful authentication such as fingerprint-based recognition for accessing sensitive personal information.
 
-### Learning and Adaptation
+### Maintainability
 
-<!-- TO-DO -->
+- The system architecture should be modular to easily manage, update, and replace components without affecting the entire system.
+- Comprehensive documentation must be provided for system maintenance, including detailed descriptions of the architecture, codebase, and third-party dependencies (all easily accessible).
 
-### Emergency Assistance
+### Integration
 
-<!-- TO-DO -->
+- Ensure that the system can integrate smoothly with existing healthcare systems and technologies used by caregivers and medical professionals.
 
-### Accessibility Features
+### Environmental
 
-<!-- TO-DO -->
+- Design the system to minimize energy consumption, especially for server operations and data processing centers.
 
-### Multi-language Support
+### Legal
 
-<!-- TO-DO -->
-
-### Security and Authentication
-
-<!-- TO-DO -->
-
-### Scalability and Performance
-
-<!-- TO-DO -->
-
-### User Feedback and Reporting
-
-<!-- TO-DO -->
+- The system should maintain detailed logs of all user interactions and system access for auditing purposes, ensuring traceability and compliance with legal requirements.
 
 ## Risks and Assumptions
 
-<!-- TO-DO -->
+- If MemoryMate operates 24/7 to ensure a permanent contact with the patient, the energy consumption could be enormous.
+  Mitigation: Implement a sleep mode when the system doesn't use as much energy as it could.
+- As MemoryMate should be autonomous enough to overcome unexpected situations, a malfunction could lead to misunderstandings from the AI.
+  Mitigation: Ensure a powerful quality assurance, maintainability, feedback system and error handling.
+- If a lack of user interaction occurs, MemoryMate could not learn from the interactions enough, and then improve them.
+  Mitigation: The system should learn from the interactions as much as possible to enhance the improvement of each interaction.
+- Voice recognition technology may have lower accuracy rates for users with heavy accents or atypical speech patterns.
+  Mitigation: Continuously train the voice recognition system with diverse datasets to improve its ability to understand and process a wide range of speech variations.
 
 ## Future Improvements
 
-- MemoryMate could be linked with existing reminder systems, such as calendars or Todoist.
-- MemoryMate could be linked to a mobile application, to facilitate the communication with care givers.
+- MemoryMate could be linked to existing reminder systems (such as calendars or Todoist) or medical technologies (such as health insurance systems).
+- MemoryMate could be linked to a mobile application, to facilitate the communication with caregivers.
 
 ## Glossary
 
