@@ -37,8 +37,8 @@ The product will be a desktop application, to enhance security and performance.
       - [Goals](#goals)
       - [Challenges](#challenges)
     - [Persona 2 - Josh Kepper](#persona-2---josh-kepper)
-      - [Goals](#goals-1)
-      - [Challenges](#challenges-1)
+        - [Goals](#goals-1)
+        - [Challenges](#challenges-1)
     - [Persona 3 - Jessica Yota](#persona-3---jessica-yota)
       - [Goals](#goals-2)
       - [Challenges](#challenges-2)
@@ -69,6 +69,8 @@ The product will be a desktop application, to enhance security and performance.
   - [Risks and Assumptions](#risks-and-assumptions)
   - [Future Improvements](#future-improvements)
   - [Glossary](#glossary)
+
+</details>
 
 ## Stakeholders
 
