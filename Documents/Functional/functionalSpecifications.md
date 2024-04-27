@@ -109,7 +109,7 @@ We have multiple objectives for this project:
 **MemoryMate would be an AI system.**
 
 - It would therefore contain an AI, helping people in their everyday lives. The AI would communicate with the patients by voice, it means that either the patients and the AI would talk.
-- A secured database would be linked to the AI, it's where the system can find any specific or personal information about the patient. The information can be supplied whether by the patient himself or by caregivers.
+- A secured database would be linked to the AI, it's where the system can find any specific or personal information about the patient. It will be local to the system, to enhance security and performance. The information can be supplied whether by the patient himself or by caregivers.
 - A computer would be the centralized device that manages all the system. We would be able to interact with the AI with it, manage the database, send feedbacks, change settings, etc.
 - The system would need a powerful microphone to understand clearly voices, and powerful speakers to be clearly understandable.
 
@@ -172,6 +172,7 @@ This product has to contain all the requirements below:
 ### Scalability and Performance
 
 - Response times for voice recognition and query processing should be kept within acceptable limits.
+- The system should include a sleep mode that would decrease the energy consumption of the product.
 
 ### User Feedback and Reporting
 
@@ -353,14 +354,7 @@ As the user and their caregivers use MemoryMate, it triggers a feedback mechanis
 
 ## Risks and Assumptions
 
-- If MemoryMate operates 24/7 to ensure a permanent contact with the patient, the energy consumption could be enormous.
-  Mitigation: Implement a sleep mode when the system doesn't use as much energy as it could.
-- As MemoryMate should be autonomous enough to overcome unexpected situations, a malfunction could lead to misunderstandings from the AI.
-  Mitigation: Ensure a powerful quality assurance, maintainability, feedback system and error handling.
-- If a lack of user interaction occurs, MemoryMate could not learn from the interactions enough, and then improve them.
-  Mitigation: The system should learn from the interactions as much as possible to enhance the improvement of each interaction.
-- Voice recognition technology may have lower accuracy rates for users with heavy accents or atypical speech patterns.
-  Mitigation: Continuously train the voice recognition system with diverse datasets to improve its ability to understand and process a wide range of speech variations.
+Here a [mitigation plan](https://docs.google.com/spreadsheets/d/1KedqlIELTKb4SQBv-wnCyTUdgzcYMi3dPUUQ4jLQC-g/edit?usp=sharing) where all the risks and their mitigations are.
 
 ## Future Improvements
 
