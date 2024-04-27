@@ -6,7 +6,8 @@
 
 This project has been started as my moonshot project for ALGOSUP.
 
-The goal of the project is to create an Artificial Intelligence linked with a database that supports individuals with Alzheimer's in their daily lives. The AI could understand voice orders.
+The goal of the project is to create an Artificial Intelligence linked with a database that supports individuals with Alzheimer's in their daily lives.
+The product will be a desktop application, to enhance security and performance.
 
 <details>
 <summary>Table of Contents</summary>
