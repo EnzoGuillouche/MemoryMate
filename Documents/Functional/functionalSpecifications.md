@@ -17,8 +17,8 @@ The product will be a desktop application, to enhance security and performance.
   - [Stakeholders](#stakeholders)
     - [Project Member](#project-member)
     - [Other Stakeholders](#other-stakeholders)
-  - [Project Scope](#project-scope)
   - [Deliverables and Milestones](#deliverables-and-milestones)
+  - [Project Scope](#project-scope)
   - [Solution Overview](#solution-overview)
   - [Functional Requirements](#functional-requirements)
     - [Voice Recognition](#voice-recognition)
@@ -85,15 +85,6 @@ The product will be a desktop application, to enhance security and performance.
 | -------------- | ------------------ | -------------------------------------- |
 | Franck JEANNIN | ALGOSUP's director | [Website](https://algosup.com/en.html) |
 
-## Project Scope
-
-We have multiple objectives for this project:
-
-- Creation of an AI system and a [database](#glossary).
-- Link between both the AI and the database.
-- Implementation of a [NLP](#glossary) to process voices.
-- Security of the database and personal information.
-
 ## Deliverables and Milestones
 
 - [Functional Specifications](../Functional/functionalSpecifications.md)
@@ -103,6 +94,14 @@ We have multiple objectives for this project:
 - The Product
 - Unit Tests
 - [All the Monthly Reports](../Management/MonthlyReports/monthlyReportCumulative.md)
+
+## Project Scope
+
+We have multiple objectives for this project:
+
+- Creation of an AI system linked with a [database](#glossary).
+- Implementation of a [NLP](#glossary) to process voices.
+- Security of the database and personal information.
 
 ## Solution Overview
 
@@ -116,11 +115,6 @@ We have multiple objectives for this project:
 ![Figma Prototype](./Img/prototype.png)
 
 ## Functional Requirements
-
-The product deals with:
-
-- A personal AI that processes and responds to voice commands.
-- A database linked with the AI, containing and supplying personal information.
 
 This product has to contain all the requirements below:
 
@@ -354,12 +348,13 @@ As the user and their caregivers use MemoryMate, it triggers a feedback mechanis
 
 ## Risks and Assumptions
 
-Here a [mitigation plan](https://docs.google.com/spreadsheets/d/1KedqlIELTKb4SQBv-wnCyTUdgzcYMi3dPUUQ4jLQC-g/edit?usp=sharing) where all the risks and their mitigations are.
+Here a [mitigation plan](https://docs.google.com/spreadsheets/d/1KedqlIELTKb4SQBv-wnCyTUdgzcYMi3dPUUQ4jLQC-g/edit?usp=sharing) where all the risks and their mitigations concerning the project are.
 
 ## Future Improvements
 
 - MemoryMate could be linked to existing reminder systems (such as calendars or Todoist) or medical technologies (such as health insurance systems).
 - MemoryMate could be linked to a mobile application, to facilitate the communication with caregivers.
+- MemoryMate could acquire more and more general knowledge to enhace precisons in its specific answers.
 
 ## Glossary
 
