@@ -10,6 +10,7 @@ This project would deal with developing an AI system that supports individuals w
 
 ## Tools
 
+- C++ programming language -> to develop the desktop application
 - Python programming language -> popular in the field of artificial intelligence and machine learning
 - Natural Language Processing (NLP) -> to understand and process natural language queries
 - Database (SQL) -> to stock and supply some information
