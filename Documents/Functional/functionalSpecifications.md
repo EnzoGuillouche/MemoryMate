@@ -1,11 +1,13 @@
 # MemoryMate
+
 <img src="./Img/MemoryMate.png" width="100">
 
 # Functional Specifications
 
 This project has been started as my moonshot project for ALGOSUP.
 
-The goal of the project is to create an Artificial Intelligence linked with a database that supports individuals with Alzheimer's in their daily lives. The AI could understand voice orders.
+The goal of the project is to create an Artificial Intelligence linked with a database that supports individuals with Alzheimer's in their daily lives.
+The product will be a desktop application, to enhance security and performance.
 
 <details>
 <summary>Table of Contents</summary>
@@ -15,10 +17,10 @@ The goal of the project is to create an Artificial Intelligence linked with a da
   - [Stakeholders](#stakeholders)
     - [Project Member](#project-member)
     - [Other Stakeholders](#other-stakeholders)
-  - [Project Scope](#project-scope)
   - [Deliverables and Milestones](#deliverables-and-milestones)
+  - [Project Scope](#project-scope)
+  - [Solution Overview](#solution-overview)
   - [Functional Requirements](#functional-requirements)
-    - [Product](#product)
     - [Voice Recognition](#voice-recognition)
     - [Personal Information Database](#personal-information-database)
     - [Memory Aid Functionality](#memory-aid-functionality)
@@ -53,47 +55,35 @@ The goal of the project is to create an Artificial Intelligence linked with a da
     - [Security and Authentication](#security-and-authentication-1)
     - [Scalability and Performance](#scalability-and-performance-1)
     - [User Feedback and Reporting](#user-feedback-and-reporting-1)
-  - [Solution Overview](#solution-overview)
   - [Non-functional Requirements](#non-functional-requirements)
-    - [Product](#product-1)
-    - [Voice Recognition](#voice-recognition-2)
-    - [Personal Information Database](#personal-information-database-2)
-    - [Memory Aid Functionality](#memory-aid-functionality-2)
-    - [Voice Response](#voice-response-2)
-    - [Learning and Adaptation](#learning-and-adaptation-2)
-    - [Emergency Assistance](#emergency-assistance-2)
-    - [Accessibility Features](#accessibility-features-2)
-    - [Multi-language Support](#multi-language-support-2)
-    - [Security and Authentication](#security-and-authentication-2)
-    - [Scalability and Performance](#scalability-and-performance-2)
-    - [User Feedback and Reporting](#user-feedback-and-reporting-2)
+    - [Performance](#performance)
+    - [Reliability](#reliability)
+    - [Usability](#usability)
+    - [Scalability](#scalability)
+    - [Security](#security)
+    - [Maintainability](#maintainability)
+    - [Integration](#integration)
+    - [Environmental](#environmental)
+    - [Legal](#legal)
   - [Risks and Assumptions](#risks-and-assumptions)
   - [Future Improvements](#future-improvements)
   - [Glossary](#glossary)
-</summary></details>
+
+</details>
 
 ## Stakeholders
 
 ### Project Member
 
-| Name        | Occupation               | Links                                                             |
-| --------------- | ------------------------ | ----------------------------------------------------------------- |
-| Enzo GUILLOUCHE | Project Multitasker     | [LinkedIn](https://www.linkedin.com/in/enzoguillouche/) |
+| Name            | Occupation          | Links                                                   |
+| --------------- | ------------------- | ------------------------------------------------------- |
+| Enzo GUILLOUCHE | Project Multitasker | [LinkedIn](https://www.linkedin.com/in/enzoguillouche/) |
 
 ### Other Stakeholders
 
-| Name           | Occupation                  | Links                          |
-| -------------- | --------------------------- | ------------------------------ |
+| Name           | Occupation         | Links                                  |
+| -------------- | ------------------ | -------------------------------------- |
 | Franck JEANNIN | ALGOSUP's director | [Website](https://algosup.com/en.html) |
-
-## Project Scope
-
-We have multiple objectives for this project:
-
-- Creation of an AI system and a [database](#glossary).
-- Link between both the AI and the database.
-- Implementation of a [NLP](#glossary) to process voices.
-- Security of the database and personal information.
 
 ## Deliverables and Milestones
 
@@ -105,16 +95,28 @@ We have multiple objectives for this project:
 - Unit Tests
 - [All the Monthly Reports](../Management/MonthlyReports/monthlyReportCumulative.md)
 
+## Project Scope
+
+We have multiple objectives for this project:
+
+- Creation of an AI system linked with a [database](#glossary).
+- Implementation of a [NLP](#glossary) to process voices.
+- Security of the database and personal information.
+
+## Solution Overview
+
+**MemoryMate would be an AI system.**
+
+- It would therefore contain an AI, helping people in their everyday lives. The AI would communicate with the patients by voice, it means that either the patients and the AI would talk.
+- A secured database would be linked to the AI, it's where the system can find any specific or personal information about the patient. It will be local to the system, to enhance security and performance. The information can be supplied whether by the patient himself or by caregivers.
+- A computer would be the centralized device that manages all the system. We would be able to interact with the AI with it, manage the database, send feedbacks, change settings, etc.
+- The system would need a powerful microphone to understand clearly voices, and powerful speakers to be clearly understandable.
+
+![Figma Prototype](./Img/prototype.png)
+
 ## Functional Requirements
 
-### Product
-
-The product deals with:
-
-- A personal AI that processes voice orders and answers them as voice.
-- A database linked with the AI, containing and supplying personal information.
-
-It has to contain all the requirements below:
+This product has to contain all the requirements below:
 
 ### Voice Recognition
 
@@ -154,7 +156,7 @@ It has to contain all the requirements below:
 
 ### Multi-language Support
 
-- The system should support multiple languages to cater to users from diverse linguistic backgrounds.
+- The system should support multiple languages to supply understandable information to users from diverse linguistic backgrounds.
 
 ### Security and Authentication
 
@@ -164,6 +166,7 @@ It has to contain all the requirements below:
 ### Scalability and Performance
 
 - Response times for voice recognition and query processing should be kept within acceptable limits.
+- The system should include a sleep mode that would decrease the energy consumption of the product.
 
 ### User Feedback and Reporting
 
@@ -174,8 +177,8 @@ It has to contain all the requirements below:
 
 ### Persona 1 - Daniella Brabushka
 
-| Daniella Brabushka                                                                      | 69 years old                                                                                                                                                                                                                                                                                     |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Daniella Brabushka                                                                       | 69 years old                                                                                                                                                                                                                                                |
+| ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img alt="Daniella Picture" src="./Img/daniellaBrabushka.png" style="max-width: 200px;"> | **Description:**<br>Daniella is a woman suffering from Alzheimer's and diabetes. She's quite autonomous though she's having a hard time remembering important things such as appointments and insuline injections.<br><br>**Frequence of use:** <br>- Often |
 
 #### Goals
@@ -194,8 +197,8 @@ It has to contain all the requirements below:
 
 ### Persona 2 - Josh Kepper
 
-| Josh Kepper                                                                      | 32 years old                                                                                                                                                                                                                                                                                     |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Josh Kepper                                                                   | 32 years old                                                                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img alt="Josh Picture" src="./Img/joshKepper.png" style="max-width: 200px;"> | **Description:**<br>Josh is a caring son facing the challenges of caring for his father, who is suffering from Alzheimer's disease. Despite his demanding job, Josh prioritizes his family above all else.<br><br>**Frequence of use:** <br>- Often |
 
 ##### Goals
@@ -214,8 +217,8 @@ It has to contain all the requirements below:
 
 ### Persona 3 - Jessica Yota
 
-| Jessica Yota                                                                      | 27 years old                                                                                                                                                                                                                                                                                     |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Jessica Yota                                                                   | 27 years old                                                                                                                                                                                                                            |
+| ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img alt="Josh Picture" src="./Img/jessicaYota.png" style="max-width: 200px;"> | **Description:**<br>Jessica is a care assistant helping her patients at home, who is suffering from Alzheimer's disease. She's dedicated to her job, regardless how many patients she has.<br><br>**Frequence of use:** <br>- Sometimes |
 
 #### Goals
@@ -230,7 +233,20 @@ It has to contain all the requirements below:
 
 ### Use Cases
 
-<!-- TO-DO -->
+**Actor: Alzheimer's patient**
+The user relies on MemoryMate to remind them of daily tasks, events and medication. They use voice commands to ask MemoryMate about upcoming appointments, medication schedules, or important dates. MemoryMate provides personalized reminders based on the user's profile and preferences, helping the user stay organized and independent.
+
+**Actor: Alzheimer's patient**
+The user engages in conversations with MemoryMate to remember about past experiences, family members, or hobbies. MemoryMate utilizes its database of personal information to tailor the conversation to the user's interests and memories. It prompts the user with relevant questions and anecdotes, providing companionship and cognitive stimulation.
+
+**Actor: Alzheimer's patient, caregiver**
+MemoryMate's emergency assistance feature detects an unexpected sound, and asks the patient if he's whether safe or not. If there's no answer, MemoryMate alerts designated caregivers or emergency contacts, providing them with the user's location and relevant medical information from the database. Caregivers can then take appropriate action to ensure the user's safety and well-being.
+
+**Actor: Multilingual Alzheimer's patient**
+The user communicates with MemoryMate in their preferred language, which may differ from the default language of the system. MemoryMate recognizes the user's language preference and responds accordingly, providing assistance and information in the desired language. This feature enhances accessibility for users from diverse linguistic backgrounds, ensuring effective communication and understanding.
+
+**Actor: Alzheimer's patient, caregiver**
+As the user and their caregivers use MemoryMate, it triggers a feedback mechanism integrated into its system to report any issues encountered or suggest improvements. MemoryMate collects and analyzes this feedback to identify areas for enhancement and refinement. Based on user input, MemoryMate iteratively improves its functionalities and user experience at any time, ultimately better serving the needs of individuals with Alzheimer's and their caregivers.
 
 ## Acceptance Criteria
 
@@ -288,73 +304,57 @@ It has to contain all the requirements below:
 - Users should be able to provide feedback on the system's performance and suggest improvements through an intuitive feedback mechanism.
 - Reports generated by MemoryMate for caregivers and healthcare professionals should be comprehensive and actionable, providing insights into user interactions and usage patterns.
 
-## Solution Overview
-
-**MemoryMate would be an AI system.**
-- It would therefore contain an AI, helping people in their everyday lives. The AI would communicate with the patients by voice, it means that either the patients and the AI would talk.
-- A secured database would be linked to the AI, it's where the system can find any specific or personal information about the patient. The information can be supplied whether by the patient himself or by caregivers.
-- A computer would be the centralized device that manages all the system. We would be able to interact with the AI with it, manage the database, send feedbacks, change settings, etc.
-- The system would need a powerful microphone to understand clearly voices, and powerful speakers to be clearly understandable.
-
-![Figma Prototype](./Img/prototype.png)
-
 ## Non-functional Requirements
 
-### Product
+### Performance
 
-<!-- TO-DO -->
+- The system should respond to voice commands within 2 seconds under normal operation conditions.
 
-### Voice Recognition
+### Reliability
 
-<!-- TO-DO -->
+- The system should be able to recover from common errors without impacting user interaction.
+- Regular backups of the personal information database should occur at least daily, with the ability to restore data to any point within the last 48 hours.
 
-### Personal Information Database
+### Usability
 
-<!-- TO-DO -->
+- The interface should be simple and intuitive for users of all technical skills, especially considering the cognitive challenges faced by users.
 
-### Memory Aid Functionality
+### Scalability
 
-<!-- TO-DO -->
+- The database should be able to handle an increase in data volume from user interactions without performance loss.
 
-### Voice Response
+### Security
 
-<!-- TO-DO -->
+- All personal data stored and transmitted should be encrypted using industry-standard encryption protocols (e.g., AES-256).
+- The system must adhere to the highest security standards and be compliant with GDPR, HIPAA, and other relevant data protection regulations.
+- Implement multi-factor authentication or a single powerful authentication such as fingerprint-based recognition for accessing sensitive personal information.
 
-### Learning and Adaptation
+### Maintainability
 
-<!-- TO-DO -->
+- The system architecture should be modular to easily manage, update, and replace components without affecting the entire system.
+- Comprehensive documentation must be provided for system maintenance, including detailed descriptions of the architecture, codebase, and third-party dependencies (all easily accessible).
 
-### Emergency Assistance
+### Integration
 
-<!-- TO-DO -->
+- Ensure that the system can integrate smoothly with existing healthcare systems and technologies used by caregivers and medical professionals.
 
-### Accessibility Features
+### Environmental
 
-<!-- TO-DO -->
+- Design the system to minimize energy consumption, especially for server operations and data processing centers.
 
-### Multi-language Support
+### Legal
 
-<!-- TO-DO -->
-
-### Security and Authentication
-
-<!-- TO-DO -->
-
-### Scalability and Performance
-
-<!-- TO-DO -->
-
-### User Feedback and Reporting
-
-<!-- TO-DO -->
+- The system should maintain detailed logs of all user interactions and system access for auditing purposes, ensuring traceability and compliance with legal requirements.
 
 ## Risks and Assumptions
 
-<!-- TO-DO -->
+Here a [mitigation plan](https://docs.google.com/spreadsheets/d/1KedqlIELTKb4SQBv-wnCyTUdgzcYMi3dPUUQ4jLQC-g/edit?usp=sharing) where all the risks and their mitigations concerning the project are.
 
 ## Future Improvements
 
-- MemoryMate could be linked with reminder systems, such as calendars or Todoist.
+- MemoryMate could be linked to existing reminder systems (such as calendars or Todoist) or medical technologies (such as health insurance systems).
+- MemoryMate could be linked to a mobile application, to facilitate the communication with caregivers.
+- MemoryMate could acquire more and more general knowledge to enhace precisons in its specific answers.
 
 ## Glossary
 
