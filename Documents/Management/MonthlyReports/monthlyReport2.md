@@ -23,7 +23,7 @@ The second month was dedicated to finishing the Functional Specifications. A mee
 ## Time
 
 Working time has been calculated with the tool Wakatime.<br>
-About 6 working hours have been recorded. (Python practice not included)
+About 10 working hours have been recorded. (Python practice not included)
 
 ## Challenges
 

@@ -18,4 +18,4 @@ The Monthly Report 1 is available [here](./monthlyReport1.md).<br>
 ## Month 2 (4/19/2024 - 5/19/2024)
 
 The Monthly Report 2 is available [here](./monthlyReport2.md).<br>
-6 working hours have been recorded during this month.
+10 working hours have been recorded during this month.
