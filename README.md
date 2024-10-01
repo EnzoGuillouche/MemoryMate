@@ -20,4 +20,4 @@ This project would deal with developing an AI system that supports individuals w
 
 | Photo | Name | Role | Links |
 |---|---|---|---|
-| <img src="https://ca.slack-edge.com/T06NA42V4FN-U06N7LH3KB4-g20f42d2a13d-50"> | GUILLOUCHE Enzo | Project Multitasker | [GitHub](https://github.com/EnzoGuillouche/) [LinkedIn](https://www.linkedin.com/in/enzo-g-b62114293/) |
+| <img src="https://ca.slack-edge.com/T019N8PRR7W-U05SJQXHTSB-3d5d3475a625-50"> | GUILLOUCHE Enzo | Project Multitasker | [GitHub](https://github.com/EnzoGuillouche/) [LinkedIn](https://www.linkedin.com/in/enzo-g-b62114293/) |
