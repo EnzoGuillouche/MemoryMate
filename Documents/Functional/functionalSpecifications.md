@@ -6,7 +6,9 @@
 
 This project has been started as my moonshot project for ALGOSUP.
 
-The goal of the project is to create an Artificial Intelligence linked with a database that supports individuals with Alzheimer's in their daily lives.
+The goal of the project is to create an Artificial Intelligence linked with a local database that supports individuals with Alzheimer's in their daily lives.
+It would interact with these people by text and by voice.
+
 The product will be a desktop application, to enhance security and performance.
 
 <details>
@@ -17,8 +19,9 @@ The product will be a desktop application, to enhance security and performance.
   - [Stakeholders](#stakeholders)
     - [Project Member](#project-member)
     - [Other Stakeholders](#other-stakeholders)
-  - [Deliverables and Milestones](#deliverables-and-milestones)
   - [Project Scope](#project-scope)
+    - [Problem Statement](#problem-statement)
+    - [Solution Statement](#solution-statement)
   - [Solution Overview](#solution-overview)
   - [Functional Requirements](#functional-requirements)
     - [Voice Recognition](#voice-recognition)
@@ -37,12 +40,18 @@ The product will be a desktop application, to enhance security and performance.
       - [Goals](#goals)
       - [Challenges](#challenges)
     - [Persona 2 - Josh Kepper](#persona-2---josh-kepper)
-        - [Goals](#goals-1)
-        - [Challenges](#challenges-1)
+      - [Goals](#goals-1)
+      - [Challenges](#challenges-1)
     - [Persona 3 - Jessica Yota](#persona-3---jessica-yota)
       - [Goals](#goals-2)
       - [Challenges](#challenges-2)
     - [Use Cases](#use-cases)
+  - [Usability](#usability)
+    - [User Interface Design](#user-interface-design)
+    - [Interaction Modes](#interaction-modes)
+    - [Personalization](#personalization)
+    - [Feedback Mechanism](#feedback-mechanism)
+    - [Support and Assistance](#support-and-assistance)
   - [Acceptance Criteria](#acceptance-criteria)
     - [Voice Recognition](#voice-recognition-1)
     - [Personal Information Database](#personal-information-database-1)
@@ -58,7 +67,7 @@ The product will be a desktop application, to enhance security and performance.
   - [Non-functional Requirements](#non-functional-requirements)
     - [Performance](#performance)
     - [Reliability](#reliability)
-    - [Usability](#usability)
+    - [Usability](#usability-1)
     - [Scalability](#scalability)
     - [Security](#security)
     - [Maintainability](#maintainability)
@@ -85,23 +94,30 @@ The product will be a desktop application, to enhance security and performance.
 | -------------- | ------------------ | -------------------------------------- |
 | Franck JEANNIN | ALGOSUP's director | [Website](https://algosup.com/en.html) |
 
-## Deliverables and Milestones
-
-- [Functional Specifications](../Functional/functionalSpecifications.md)
-- [Technical Specifications](../Technical/technicalSpecifications.md)
-- [The Architecture Diagram](../Technical/Img/architectureDiagram.png)
-- [The Test Plan](../Test/testPlan.md)
-- The Product
-- Unit Tests
-- [All the Monthly Reports](../Management/MonthlyReports/monthlyReportCumulative.md)
-
 ## Project Scope
 
-We have multiple objectives for this project:
+### Problem Statement
 
-- Creation of an AI system linked with a [database](#glossary).
+The problem I've encountered with my peers is that individuals with Alzheimer's often face significant challenges in maintaining social connections, which can lead to feelings of loneliness and isolation.
+For instance, my grandfather faced this disease and he had a hard time dealing with this change and the loneliness that can come through.
+
+Research indicates that approximately **50% of people with mental disorders** report feeling lonely at some point in their lives. This loneliness can exacerbate their cognitive decline and negatively impact their overall well-being.
+Furthermore, studies have shown that social isolation can increase the risk of mortality by up to **26% for older adults**. In a survey conducted by the Alzheimer’s Association, nearly **60% of caregivers** reported that their loved ones with Alzheimer’s experienced feelings of loneliness, indicating a pressing need for solutions that foster social interaction and engagement.
+
+Despite being relatively autonomous, many individuals with Alzheimer's may struggle to initiate or maintain social connections due to communication barriers and memory challenges.
+As a result, these individuals may not seek out social opportunities, further contributing to their feelings of isolation.
+
+### Solution Statement
+
+Addressing this issue is critical for enhancing the quality of life for those with Alzheimer's.
+The solution that I'd propose should have multiple objectives:
+
+- Creation of an AI system linked with a local [database](#glossary).
 - Implementation of a [NLP](#glossary) to process voices.
+- Consistency of how the AI learns from the interactions.
 - Security of the database and personal information.
+
+All those key points could provide cognitive support, reduce loneliness and social interaction.
 
 ## Solution Overview
 
@@ -111,6 +127,8 @@ We have multiple objectives for this project:
 - A secured database would be linked to the AI, it's where the system can find any specific or personal information about the patient. It will be local to the system, to enhance security and performance. The information can be supplied whether by the patient himself or by caregivers.
 - A computer would be the centralized device that manages all the system. We would be able to interact with the AI with it, manage the database, send feedbacks, change settings, etc.
 - The system would need a powerful microphone to understand clearly voices, and powerful speakers to be clearly understandable.
+
+This is a schematic of what a potential prototype would look like:
 
 ![Figma Prototype](./Img/prototype.png)
 
@@ -128,7 +146,7 @@ This product has to contain all the requirements below:
 
 - The system should have a secure database to store personal information of users.
 - It should allow authorized personnel to update and manage the database.
-- Compliance with data privacy regulations such as [GDPR or HIPAA](#glossary) should be ensured.
+- Compliance with data privacy regulations such as **[GDPR or HIPAA](#glossary)** should be ensured.
 
 ### Memory Aid Functionality
 
@@ -145,6 +163,7 @@ This product has to contain all the requirements below:
 
 - MemoryMate should continuously learn from user interactions and adapt its responses accordingly.
 - It should improve its accuracy in voice recognition and personalization over time.
+- It should detect the importance of specific topics/information to store them effectively.
 
 ### Emergency Assistance
 
@@ -201,13 +220,13 @@ This product has to contain all the requirements below:
 | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img alt="Josh Picture" src="./Img/joshKepper.png" style="max-width: 200px;"> | **Description:**<br>Josh is a caring son facing the challenges of caring for his father, who is suffering from Alzheimer's disease. Despite his demanding job, Josh prioritizes his family above all else.<br><br>**Frequence of use:** <br>- Often |
 
-##### Goals
+#### Goals
 
 - Josh aims to provide the best possible care for his father while allowing him to maintain a sense of independence and dignity at home.
 - He wants a tool that can assist in monitoring his father's well-being and ensuring his safety, even if he's not physically present.
 - He desires a solution that can adapt to his father's preferences, habits, and changing needs over time.
 
-##### Challenges
+#### Challenges
 
 - Josh may face a learning curve in setting up and utilizing the AI system, especially if it involves complex configurations or interfaces.
 - He will need to trust that the AI can provide the right support at the right time.
@@ -247,6 +266,33 @@ The user communicates with MemoryMate in their preferred language, which may dif
 
 **Actor: Alzheimer's patient, caregiver**
 As the user and their caregivers use MemoryMate, it triggers a feedback mechanism integrated into its system to report any issues encountered or suggest improvements. MemoryMate collects and analyzes this feedback to identify areas for enhancement and refinement. Based on user input, MemoryMate iteratively improves its functionalities and user experience at any time, ultimately better serving the needs of individuals with Alzheimer's and their caregivers.
+
+## Usability
+
+### User Interface Design
+
+<!-- how the interface is designed to be intuitive and user-friendly, considering the cognitive abilities of individuals with Alzheimer's.
+use of large fonts, simple icons, and high-contrast colors to enhance readability. -->
+
+### Interaction Modes
+
+<!-- modes of interaction (voice commands, touch, etc.)
+information about the ease of initiating conversations or activities with the AI. -->
+
+### Personalization
+
+<!-- how the AI can adapt to individual preferences, such as favorite activities or topics, to enhance user engagement.
+how the system learns from user interactions to provide a more tailored experience. -->
+
+### Feedback Mechanism
+
+<!-- how the AI will provide clear feedback to the user/user's family, confirming actions or clarifying commands.
+how the system handles misunderstandings or incorrect commands in a gentle manner. -->
+
+### Support and Assistance
+
+<!-- the types of support the AI provides (reminders, companionship, entertainment) and how these features are accessed.
+how the AI can assist users in remembering important information, such as names and daily tasks. -->
 
 ## Acceptance Criteria
 
@@ -348,7 +394,7 @@ As the user and their caregivers use MemoryMate, it triggers a feedback mechanis
 
 ## Risks and Assumptions
 
-Here a [mitigation plan](https://docs.google.com/spreadsheets/d/1KedqlIELTKb4SQBv-wnCyTUdgzcYMi3dPUUQ4jLQC-g/edit?usp=sharing) where all the risks and their mitigations concerning the project are.
+Here a [mitigation plan](https://docs.google.com/spreadsheets/d/1KedqlIELTKb4SQBv-wnCyTUdgzcYMi3dPUUQ4jLQC-g/edit?usp=sharing) where several risks and their mitigations concerning the project are.
 
 ## Future Improvements
 
